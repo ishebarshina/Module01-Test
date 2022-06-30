@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+h1 {
+    font-family: 'Gentium Book Plus', serif;
+    color: blueviolet;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+}
+
+li {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+ul li {
+    text-shadow: 1px 0px 2px lightpink;
+}
+
+a {
+    text-decoration: dashed;
+    color: black;
+}
+
+a:hover {
+    font-size: 1.1em;
+    color: teal;
+    text-shadow: 1px 1px 1px aquamarine;
+}
