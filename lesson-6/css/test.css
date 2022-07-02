@@ -1,5 +1,6 @@
 body {
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 .header {
     display: flex;
@@ -12,7 +13,6 @@ footer {
 }
 a {
     color: rebeccapurple;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-decoration: none;
 }
@@ -21,7 +21,6 @@ a {
     text-decoration: none;
     color: lightgreen;
     background-color: rebeccapurple;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 ul {
@@ -45,6 +44,10 @@ ul > li {
 }
 .post {
     padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
